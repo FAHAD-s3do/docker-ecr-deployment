@@ -1,0 +1,14 @@
+# Local credentials and deployment output
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+*.p12
+*.pfx
+terraform.tfstate*
+*.tfvars
+!*.tfvars.example
+__pycache__/
+ecs-fargate-deployment/task-definition.json
